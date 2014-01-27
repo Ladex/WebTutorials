@@ -1,0 +1,69 @@
+﻿<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+
+            <!-- Modal -->
+            <div id="articleModal" class="modal fade"  tabindex="-1" role="dialog" 
+                aria-labelledby="articleModalTitle" aria-hidden="true" data-bind="visible: HasArticle, with: CurrentArticle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="articleModalTitle" data-bind="text: Title"></h4>
+                        </div>
+                        <div class="modal-body">
+                            <p data-bind="text: LongDescription"></p>
+                            <br/>
+                            <a data-bind="attr: { href: ArticleUrl}" target="_blank">View article</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal -->
+
+
+            <div id="mainWait" data-bind="visible: Loading">
+                 <img id="loaderImage" src="~/Content/images/loadinfo.net.gif" />
+            </div>
+
+            <!-- Carousel
+            ================================================== -->
+            <div id="mainCarousel" data-wrap="false" class="slide"  data-bind="visible: Loaded">
+                <div class="carousel-inner" data-bind="foreach: Categories">
+                    <div class="item" data-bind="css: {'active': $index()==0}">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-8 col-md-8 col-xs-offset-2 col-md-offset-2">
+                                    <p class="lead" data-bind="text: Title" />
+                                    <p data-bind="text: Description" />
+                                </div>
+
+                                <div data-bind="visible: hasArticles" >
+                                    <div data-bind="foreach:  $data.Articles" class="row col-xs-8 col-md-8 col-xs-offset-2 col-md-offset-2 articleRow">
+                                        <div class="col-xs-12 col-md-3">
+                                            <img data-bind="attr: {src: ImageUrl, id: 'img' + Id}, click: $parent.articleClicked" class="img-responsive articleImage" alt="Responsive image" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a id="leftCaroselControl" class="left carousel-control" href="#mainCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a id="rightCaroselControl" class="right carousel-control" href="#mainCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <!-- /.carousel -->
+        </div>
+
+    </div>
+</div>
+<!-- /container -->
+
+@section scripts
+{
+
+}

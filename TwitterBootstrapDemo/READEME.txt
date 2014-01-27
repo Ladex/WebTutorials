@@ -1,0 +1,5 @@
+This demo uses a SQL database, So make sure you have :
+
+1. Created a SQL database and that it is called "BootstrapDemo" 
+2. Run the following scripts on it
+3. Changed the web.config to point to your DB installation

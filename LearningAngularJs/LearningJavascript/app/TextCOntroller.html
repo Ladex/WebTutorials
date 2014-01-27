@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js">
+
+    </script>
+    <script>
+        var myAppModule = angular.module('myApp', []);
+
+        myAppModule.controller('TextController', function ($scope) {
+            var someText = {};
+            someText.message = 'You have  started your journey';
+            $scope.someText = someText;
+        });
+    </script>
+</head>
+<body ng-controller="TextController">
+    <p>{{someText.message}}</p>
+</body>
+</html>

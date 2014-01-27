@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html ng-app xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .menu-disabled-true {
+            color: gray;
+        }
+
+        .error {
+            background-color: red;
+        }
+
+        .warning {
+            background-color: yellow;
+        }
+
+        .selected {
+            background-color: lightgreen;
+        }
+    </style>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js">
+    </script>-->
+    <script src="../Scripts/angular.js"></script>
+    <script>
+        function StartUpController($scope) {
+            $scope.funding = { startingEstimate: 0 };
+
+            $scope.computeNeeded = function () {
+                $scope.funding.needed = $scope.funding.startingEstimate * 10;
+            };
+
+            $scope.requestFunding = function () {
+                window.alert("Sorry, please get more customers first");
+            }
+
+            $scope.reset = function () {
+                $scope.funding.startingEstimate = 0;
+                $scope.funding.needed = 0;
+            }
+        }
+
+        var students = [{ name: 'Mary Contrary', id: '1' },
+           { name: 'Jack Jones', id: '2' },
+           { name: 'Mike Marlow', id: '3' }, ];
+
+        function StudentListController($scope) {
+            $scope.students = students;
+
+            $scope.insertTom = function () {
+                $scope.students.splice(1, 0, { name: 'Tom Thumb', id: '4' });
+            };
+        }
+
+
+        var album = [{ name: 'southwest serenade', duration: '2:34' },
+            { name: 'Northern Light Waltz', duration: '3:59' },
+            { name: 'Easter Tango', duration: '4:46' }
+        ];
+
+        function AlbumController($scope) {
+            $scope.album = album;
+        }
+
+
+        function DeathrayMenuController($scope) {
+            $scope.menuState = { show: true };
+            $scope.isDisabled = false;
+
+            $scope.toggleMenu = function () {
+                $scope.menuState.show = !$scope.menuState.show;
+            };
+
+            $scope.stun = function () {
+                $scope.isDisabled = !$scope.isDisabled;//'true';
+            };
+
+            $scope.disintegrate = function () {
+                window.alert('Disappeared');
+            };
+
+            $scope.erase = function () {
+                window.alert('erased');
+            };
+        }
+
+
+        function HeaderController($scope) {
+            $scope.isError = false;
+            $scope.isWarning = false;
+
+            $scope.showError = function () {
+                $scope.messageText = 'This is an error';
+                $scope.isError = true;
+                $scope.isWarning = false;
+            };
+
+            $scope.showWarning = function () {
+                $scope.messageText = 'Just a warning. Please carry on.';
+                $scope.isWarning = true;
+                $scope.isError = false;
+            };
+        }
+
+        function RestaurantTableController($scope) {
+            $scope.directory = [{ name: 'The Handsome Heifer', cuisine: 'BBQ' },
+                                { name: 'Green\'s Green Greens', cuisine: 'Salad' },
+            { name: 'Mama Cass', cuisine: 'Naija Meals' }];
+
+            $scope.selectRestaurant = function (row) {
+                $scope.selectedRow = row;
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <form ng-controller="StartUpController">
+        Starting: <input ng-change="computeNeeded()" ng-model="funding.startingEstimate" /><p></p>
+        Recommendation:{{funding.needed}}<p />
+        <button ng-click="requestFunding()">Fund my startup</button>
+        <button ng-click="reset()">Reset</button>
+    </form>
+    <p/>
+    <p/>
+
+    <form ng-controller="StudentListController">
+        <ul>
+            <li ng-repeat="student in students">
+                <a ng-href="/student/view/{{student.id}}">{{student.name}}</a>
+            </li>
+        </ul>
+        <button ng-click="insertTom()">Insert Tom</button>
+    </form>
+    <p />
+    <p />
+
+    <table ng-controller="AlbumController">
+        <tr ng-repeat="track in album">
+            <td>{{$index + 1}}</td>
+            <td>{{track.name}}</td>
+            <td>{{track.duration}}</td>
+        </tr>
+    </table>
+    <p />
+    <p />
+    <div ng-controller="DeathrayMenuController">
+        <button ng-click="toggleMenu()">Toggle Menu</button>
+        <ul ng-show='menuState.show'>
+            <li class="menu-disabled-{{isDisabled}}" ng-click="stun()">Stun</li>
+            <li ng-click="disintegrate()">Disintegrate</li>
+            <li ng-click="erase()">Erase from history</li>
+        </ul>
+    </div>
+
+    <p />
+    <p />
+    <div ng-controller="HeaderController">
+
+        <div ng-class="{error:isError, warning:isWarning}">
+            {{messageText}}
+        </div>
+
+        <button ng-click="showError()">Simulate Error</button>
+        <button ng-click="showWarning()">Simulate Warning</button>
+    </div>
+    <p />
+    <p />
+    <table ng-controller="RestaurantTableController">
+        <tr ng-repeat="restaurant in directory"
+            ng-click="selectRestaurant($index)"
+            ng-class="{selected: $index==selectedRow}">
+            <td>{{restaurant.name}}</td>
+            <td>{{restaurant.cuisine}}</td>
+        </tr>
+    </table>
+</body>
+</html>

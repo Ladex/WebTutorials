@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<seedData>
+  <!-- CATEGORIES -->
+  <categories>
+    <category>
+      <slideOrder>1</slideOrder>  
+      <title>About</title>  
+      <description>
+        <![CDATA[This website contains a small subset of the articles I have written over the years. 
+        
+Over time I guess I will expand apon this to include all the articles I have written. 
+
+By exploring the various tabs you should be able to find a range of stuff that I have worked on from WPF/SQL/NoSQL to WCF/SignalR/ASP MVC/Angular.js/Google earth/D3.js. 
+
+I do try and keep my toe in with the web, though those that know me probably think of me as a desktop WPF kind of guy, that's about right. Though I quite enjoy doing stuff around the web. I will be taking some time off soon to learn a few things, namely F#/Azure/Amazon Web Services and PowerShell (though WebGL and Three.js look very nice), so once I have done that I may some more articles to add in here
+      ]]>
+      </description>
+    </category>
+    <category>
+      <slideOrder>2</slideOrder>  
+      <title>C#</title>
+      <description>
+        <![CDATA[This section shows some of the C# articles I have done over the years
+      ]]>
+      </description>
+
+  <!-- C# ARTICLES -->
+  <articles>
+    <article>
+      <title>Threading 1 of 5</title>
+      <shortDescription>Beginners guide to threading in .NET (Part 1)</shortDescription>
+      <longDescription><![CDATA[Introduction into threading in .NET]]>
+      </longDescription>
+      <imageUrl>Content/images/Thread1.png</imageUrl>
+      <articleUrl>http://www.codeproject.com/Articles/26148/Beginners-Guide-to-Threading-in-NET-Part-1-of-n</articleUrl>
+    </article>
+        <article>
+          <title>Threading 2 of 5</title>
+          <shortDescription>Beginners guide to threading in .NET (Part 2)</shortDescription>
+          <longDescription><![CDATA[Lifecycle of Threads/Threading Opportunities/Traps]]>
+          </longDescription>
+          <imageUrl>Content/images/Thread2.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/26148/Beginners-Guide-to-Threading-in-NET-Part-2-of-n</articleUrl>
+        </article>   
+        <article>
+          <title>Threading 3 of 5</title>
+          <shortDescription>Beginners guide to threading in .NET (Part 3)</shortDescription>
+          <longDescription><![CDATA[Synchronization]]>
+          </longDescription>
+          <imageUrl>Content/images/Thread3.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/26148/Beginners-Guide-to-Threading-in-NET-Part-3-of-n</articleUrl>
+        </article> 
+        <article>
+          <title>Threading 4 of 5</title>
+          <shortDescription>Beginners guide to threading in .NET (Part 4)</shortDescription>
+          <longDescription><![CDATA[Thread Pools]]>
+          </longDescription>
+          <imageUrl>Content/images/Thread4.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/26148/Beginners-Guide-to-Threading-in-NET-Part-4-of-n</articleUrl>
+        </article>         
+        <article>
+          <title>Threading 5 of 5</title>
+          <shortDescription>Beginners guide to threading in .NET (Part 5)</shortDescription>
+          <longDescription><![CDATA[Threading in UIs (WinForms / WPF / Silverlight)]]>
+          </longDescription>
+          <imageUrl>Content/images/Thread5.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/26148/Beginners-Guide-to-Threading-in-NET-Part-5-of-n</articleUrl>
+        </article>         
+        <article>
+          <title>Task Parrallel Library 1 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 1)</shortDescription>
+          <longDescription><![CDATA[Starting Tasks / Trigger Operations / Exception Handling / Cancelling / UI Synchronization]]>
+          </longDescription>
+          <imageUrl>Content/images/Task1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-1-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Task Parrallel Library 2 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 2)</shortDescription>
+          <longDescription><![CDATA[Continuations / Cancelling Chained Tasks]]>
+          </longDescription>
+          <imageUrl>Content/images/Task2.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-2-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Task Parrallel Library 3 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 3)</shortDescription>
+          <longDescription><![CDATA[Parallel For / Custom Partioner / Aggregate Operations]]>
+          </longDescription>
+          <imageUrl>Content/images/Task3.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-3-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Task Parrallel Library 4 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 4)</shortDescription>
+          <longDescription><![CDATA[Parallel LINQ]]>
+          </longDescription>
+          <imageUrl>Content/images/Task4.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-4-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Task Parrallel Library 5 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 5)</shortDescription>
+          <longDescription><![CDATA[Pipelines]]>
+          </longDescription>
+          <imageUrl>Content/images/Task5.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-5-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Task Parrallel Library 6 of 6</title>
+          <shortDescription>Beginners guide to using Task Parallel Library (Part 6)</shortDescription>
+          <longDescription><![CDATA[Advanced Scenarios / v.Next for Tasks]]>
+          </longDescription>
+          <imageUrl>Content/images/Task6.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/152765/Task-Parallel-Library-6-of-n</articleUrl>
+        </article>        
+        <article>
+          <title>Fluent CSV/XML Exporter for List</title>
+          <shortDescription>A look at creating a mini DSL using method builder</shortDescription>
+          <longDescription><![CDATA[Fluent interfaces are with us more and more. This article looks at what it take to write your own fluent interface. It uses techniques such as method chaining and clever use of extension methods to get the job done to export a list to either CSV/XML]]>
+          </longDescription>
+          <imageUrl>Content/images/CSharpLogo.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/174183/Fluent-CSV-XML-Exporter-for-List</articleUrl>
+        </article>
+        <article>
+          <title>AI: Dawkins Biomorphs / And Other Evolving Creatures</title>
+          <shortDescription>A look at creating cool critters using some common AI techniques</shortDescription>
+          <longDescription><![CDATA[This article looks at how to use one of the cmmmon elements of rtificial Intelligence, the "Generic Alorithm" AKA GA. The GA is used to breed a selection of tree branches where the strongest (based on some fitness function) parents from the gene pool are used to seed the next population. There is also an element of uncertainty (mutation) which helps form the new population. The user is free to pick the one they like the best by clicking the mouse over the one they like. The results can sometimes be pretty suprising with some very strange formations occurring]]>
+          </longDescription>
+          <imageUrl>Content/images/CSharp_1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/17387/AI-Dawkins-Biomorphs-And-Other-Evolving-Creatures</articleUrl>
+        </article>
+        <article>
+          <title>Expression API cookbook</title>
+          <shortDescription>A simple cookbook of doing common task with the Expression namespace</shortDescription>
+          <longDescription><![CDATA[The Expression namespace is a very good sets of classes that allows you to do very useful things such as static reflection, create dynamic strongly typed delegates at runtime, build new prorams even, all on the fly. This article looks at some common scenarios and shows you hw to do them.]]>
+          </longDescription>
+          <imageUrl>Content/images/Express.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/651464/Expression-API-Cookbook</articleUrl>
+        </article>      
+        <article>
+          <title>Chained Property Observer</title>
+          <shortDescription>Monitors INPC based objects for changes</shortDescription>
+          <longDescription><![CDATA[Allows the monitoring of deep INotifyPropertyChanged objects, which are selected using Expression APIs. All event subscription is weak by default. t also copes with having a broken chain, and the chain being remade again.]]>
+          </longDescription>
+          <imageUrl>Content/images/chain.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/166530/A-Chained-Property-Observer</articleUrl>
+        </article>      
+        <article>
+          <title>DSLs</title>
+          <shortDescription>Looking at Domain Specific Languages</shortDescription>
+          <longDescription><![CDATA[This articl looks at some common DSL technique such as method chaining, context trees. It starts out pretty simply, but soon leads on to a much richer example, which is a simple mocking framework which is very similar to the extremely popular Moq framewwork]]>
+          </longDescription>
+          <imageUrl>Content/images/DSLs.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/426362/DSLs-A-Deep-ish-look</articleUrl>
+        </article>      
+        <article>
+          <title>Vain WebSpider</title>
+          <shortDescription>A simple example of creating a web spider</shortDescription>
+          <longDescription><![CDATA[A simple WinForms application that demonstrates how to screen scrape data to create a simple web spider, that scrapes www.codeproject.com to look at various article statistics given a author ID]]>
+          </longDescription>
+          <imageUrl>Content/images/Spider.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/16868/A-Really-Vain-How-are-my-articles-doing-Web-Spider</articleUrl>
+        </article>      
+      </articles>
+
+
+    </category>
+    <category>
+      <slideOrder>3</slideOrder>  
+      <title>WEB</title>
+      <description>
+        <![CDATA[I have been lucky enough over the past number of years to have been able to work on the full development stack, which means database (SQL / NoSQL), messaging layers (MSMQ / NServiceBus / RabbitMQ / SignalR), server side code (WCF) and UI. For the UI we tend to use WPF for desktop applications and for web we have used a mixtre of ASP MVC / SignalR / Angular.js / Knockout.js / Backbone.js and Twitter Bootstrap.js. This section shows a few of the articles I have produced over the years]]>
+      </description>
+
+      <!-- WEB ARTICLES -->
+      <articles>
+        <article>
+          <title>Fun with SignalR</title>
+          <shortDescription>Streaming live results to a web site using MSMQ/Duplex WCF/SignalR/jQuery</shortDescription>
+          <longDescription>
+            <![CDATA[This was at the very beginning of SignalR its quite mature now) and we had a requirement to broadcast messages from a logger in real time that we wanted to appear on Google Earth in near real time. This involved MSMQ / Duplex WCF (Pub/Sub) and the use of an ASP MVC web site, with a SignalR Hu. The SignalR client side code was used to add items to Google Earth using Javascript. It was quite fun to write this one]]>
+          </longDescription>
+          <imageUrl>Content/images/WEB_1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/324841/EventBroker</articleUrl>
+        </article>
+        <article>
+          <title>Angular.js example application</title>
+          <shortDescription>An example application using Angular.js/Rx for JavaScript/Web Sockets/jQuery</shortDescription>
+          <longDescription>
+            <![CDATA[This article uses a standard WPF client application that pushes data at a static web site using the Fleck WebSocket code. The web site was entirely done in Agular.js and demonstrated everything from Routing/dependency injection/routing/directives and services using the Angular.js framework. Some added bonuses were that it also used the reactive extensions for Javascript to broadcast the WebSocket received data]]>
+          </longDescription>
+          <imageUrl>Content/images/WEB_2.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/637430/Angular-js-example-application</articleUrl>
+        </article>
+        <article>
+          <title><![CDATA[Node.js & stuff]]>
+          </title>
+          <shortDescription>Small demo app using Node.Js/Socket.IO/MongoDB/D3.Js and jQuery</shortDescription>
+          <longDescription>
+            <![CDATA[This article showed how to setup a Node.js server that could host a simple Express.js web site. Where I was using the Jade view engine and the Stylus.css compiler (think LESS and SASS). It also used MongoDB (javascript client) to synchronize a d3.js directed graph of connected friends, where 2 differet friends could send messages to each other to build up a friendship grah using a simple web socket. Again a lot of fun to write]]>
+          </longDescription>
+          <imageUrl>Content/images/WEB_3.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/523451/Node-Js-And-Stuff</articleUrl>
+        </article>
+        <article>
+          <title>Rejuire.js</title>
+          <shortDescription>A look at Require.js</shortDescription>
+          <longDescription>
+            <![CDATA[Small demo app showing how to use the popular module loading JS library Require.js]]>
+          </longDescription>
+          <imageUrl>Content/images/require.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/614507/Modular-Javascript-Using-Require-Js</articleUrl>
+        </article>
+        <article>
+          <title>WebWorker</title>
+          <shortDescription>A look at using WebWorkers</shortDescription>
+          <longDescription>
+            <![CDATA[WebWorkers are JavaScripts answer to threads. In this article we create a simple jQuery addin that demonstrates a very simple web worker]]>
+          </longDescription>
+          <imageUrl>Content/images/WW.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/225692/Html5-WebWorkers-experiment</articleUrl>
+        </article>
+        <article>
+          <title>Embedding CoolIris in your own web site</title>
+          <shortDescription>A look at how to use CoolIris in your own web site</shortDescription>
+          <longDescription>
+            <![CDATA[The CoolIris plugin is a very responsive video and image wall in 3D, that is developed in flash. Thing is it also supports certain queries, which means you can embed it in your own applications and make them look cool. This article explains how to do that]]>
+          </longDescription>
+          <imageUrl>Content/images/CoolIris.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/68025/Embed-PicLens</articleUrl>
+        </article>
+      </articles>
+
+
+    </category>
+    <category>
+      <slideOrder>4</slideOrder>  
+      <title>WPF</title>
+      <description>
+        <![CDATA[This section shows some of the WPF articles I have done over the years
+      ]]>
+      </description>
+
+      <!-- WPF ARTICLES -->
+      <articles>
+        <article>
+          <title>MefFx</title>
+          <shortDescription>VS2010 Demo App</shortDescription>
+          <longDescription>
+            <![CDATA[This app was done just before VS2010 was released and was done as a sort of showcase of some of the stuff you could do with VS2010 and Windows7. It showed nice TaskBar shell integration, custom Pixel shaders, and also the use of MEF IOC container]]>
+          </longDescription>
+          <imageUrl>Content/images/MefFx.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/44393/Windows-7-VS2010-demo-app</articleUrl>
+        </article>
+        <article>
+          <title>Stream YouTube In WPF</title>
+          <shortDescription>WPF YouTube player</shortDescription>
+          <longDescription>
+            <![CDATA[Simple example of how you could play YouTube videos in WPF applications.]]>
+          </longDescription>
+          <imageUrl>Content/images/YouTube.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/27121/Stream-YouTube-Videos-in-WPF</articleUrl>
+        </article>      
+        <article>
+          <title>A simple WPF graph</title>
+          <shortDescription>Simple WPF graph that shows 1 ticking value in real time</shortDescription>
+          <longDescription>
+            <![CDATA[Extremely simple single value graph, with autoscaling axis, with options support to save to SQL server, to allow panning of historical data]]>
+          </longDescription>
+          <imageUrl>Content/images/Graph1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/32973/WPF-A-graph-control</articleUrl>
+        </article>       
+        <article>
+          <title>A 3D WPF graph</title>
+          <shortDescription>Simple 3D graph that shows 1 ticking value in real time</shortDescription>
+          <longDescription>
+            <![CDATA[Extremely simple 3D value graph, which has limited value, but does show how to do some cool 3d stuff in WPF]]>
+          </longDescription>
+          <imageUrl>Content/images/Graph2.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/48940/WPF-3D-graph</articleUrl>
+        </article>
+        <article>
+          <title>Sticky Notes</title>
+          <shortDescription>Shows how to create some funky notes</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to create some funky sticky notes, which are sized differently, rotated differently and have different zIndex depending on their order. This also shows how to use the AdornerLayer in WPF]]>
+          </longDescription>
+          <imageUrl>Content/images/StickyNotes.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/30021/WPF-Sticky-Notes-ListBox</articleUrl>
+        </article>            
+        <article>
+          <title>3D screensaver</title>
+          <shortDescription>Shows how to create 3D screen saver</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to create a simple 3D screensaver in WPF. Where the set of images will be cycled through. It also shows how to create a custom settings page for your screensaver]]>
+          </longDescription>
+          <imageUrl>Content/images/ScreenSaver.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/30078/WPF-A-3D-screensaver-written-in-WPF</articleUrl>
+        </article>            
+        <article>
+          <title>ICollectionView</title>
+          <shortDescription>Shows how to use ICollectionView for sorting</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to use ICollectionView to sort a collection. This also had some nice Adorner controls to scroll the sorted data]]>
+          </longDescription>
+          <imageUrl>Content/images/cv.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/25256/An-article-on-sorting-ItemsControl-with-some-bonus</articleUrl>
+        </article>            
+        <article>
+          <title>Snakes</title>
+          <shortDescription>Snakes game</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to create a simple snakes game (including map creator) in wpf. It was fun]]>
+          </longDescription>
+          <imageUrl>Content/images/snakes.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/20901/WPF-The-Classic-Snakes-WPF-ed</articleUrl>
+        </article>            
+        <article>
+          <title>Spider control</title>
+          <shortDescription>Spider type tree control</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to create a simple spider type tree control, with collapsable/expandable children/parents.]]>
+          </longDescription>
+          <imageUrl>Content/images/spiderTree.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/29529/A-Spider-type-control-tree-thingy-for-WPF</articleUrl>
+        </article>            
+        <article>
+          <title>Diagram control</title>
+          <shortDescription>Simple MVVM diagram control</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to create a diagram designer which can pan/zoom, reposition elements, and also save/hydrate the layout to a database]]>
+          </longDescription>
+          <imageUrl>Content/images/diagramMVVM.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/484616/MVVM-Diagram-Designer</articleUrl>
+        </article>            
+        <article>
+          <title>AutoDiagrammer II</title>
+          <shortDescription>The 2nd version of my class from DLL app</shortDescription>
+          <longDescription>
+            <![CDATA[This example shows how to use reflection to create a class diagram from an EXE/Dll.]]>
+          </longDescription>
+          <imageUrl>Content/images/autoII.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/207280/200-Reflective-Class-Diagram-Creation-Tool</articleUrl>
+        </article>            
+        <article>
+          <title>A* type search</title>
+          <shortDescription>A london tube map A* type search</shortDescription>
+          <longDescription>
+            <![CDATA[A Simple A* type search across the famous London underground]]>
+          </longDescription>
+          <imageUrl>Content/images/AStar.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/43636/WPF-A-search</articleUrl>
+        </article>            
+        <article>
+          <title>Timeline control</title>
+          <shortDescription>A simple timeline control with transitions</shortDescription>
+          <longDescription>
+            <![CDATA[A Simple timeline control that show how to use Transitionals.Dll and also the State pattern]]>
+          </longDescription>
+          <imageUrl>Content/images/time.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/72670/WPF-A-TimeLineControl</articleUrl>
+        </article>            
+      
+      </articles>
+
+
+    </category>
+    <category>
+      <slideOrder>5</slideOrder>  
+      <title>Silverlight</title>
+      <description>
+        <![CDATA[I have always been more of a WPF boy than a Sliverlight inclined chappy. I have done a few Silverlight articles, but these were all really around the time of Silverlight 1.0 (the pure Javascript version) and 1.1 where you did have C# but still had to create your own UI elements. It was very basic. Silverlight was ok, but I prefer ASP MVC with a bit of MV** Javascript client side libraries really. That said I still think WPF is the richest UI framework of anything I have ever used, its awesome.
+      ]]>
+      </description>
+
+      <!-- SILVERLIGHT ARTICLES -->
+      <articles>
+        <article>
+          <title><![CDATA[Silverlight 1.1 Fun & Games]]></title>
+          <shortDescription>Creating a Flickr scatter panel type of control within Silverlight 1.1</shortDescription>
+          <longDescription>
+            <![CDATA[I wrote this article way back when Silverlight was in its infancy, and you still had to write your own controls. So I decided to write a sort of ScatterPanel type thing, which would allow you to scale/rotate and set Z-Index of items in the panel using the mouse. ALthough todays Silveright is a much improved version from the one this article uses, it is still an interesting article (I think) which shows you how to author custom conrols.]]>
+          </longDescription>
+          <imageUrl>Content/images/Silverlight_1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/21136/Silverlight-1-1-Fun-and-Games</articleUrl>
+        </article>
+      </articles>
+
+
+    </category>
+    <category>
+      <slideOrder>6</slideOrder>  
+      <title>WinRT</title>
+      <description>
+        <![CDATA[This section shows some of the WinRT articles I have done. You may notice this is not many yet, as I don't think its ready enough to warrant any hard learning right now (Win8.1 just out at time of writing this), hopefully over time the APIs will improve, and become more attractive
+      ]]>
+      </description>
+
+      <!-- WinRT ARTICLES -->
+      <articles>
+        <article>
+          <title>WinRT Dr Surgery Demo App</title>
+          <shortDescription>Simple Win8 MVVM application</shortDescription>
+          <longDescription>
+            <![CDATA[This simply Windows8 (yes 8, not 8.1) was developed to showcase the awesome work Ian Johnsons StyleMVVM framework. It also tried to illustrate a few Win8 features, such as SearchContract/Camera. Some of these ideas presented in this article such as LayoutAwarePage, are now outdated with new Win8.1 classes, but it was started before Win8.1 was around. It still demonstrates a great MVVM framework (Style MVVM) that can be used with Win8.xx, so it should still be a very relevant article]]>
+          </longDescription>
+          <imageUrl>Content/images/WinRT_1.png</imageUrl>
+          <articleUrl>http://www.codeproject.com/Articles/678087/WinRT-StyleMVVM-Demo-2-of-2</articleUrl>
+        </article>
+      </articles>
+
+
+    </category>
+  </categories>
+
+ 
+
+
+</seedData>
