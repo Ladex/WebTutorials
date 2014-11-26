@@ -4,16 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStrap101Template", "WebApplication1\BootStrap101Template.csproj", "{1CC1F11E-70FB-4D43-8908-8F24AB6C33BD}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://indipol.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WebApplication1\\BootStrap101Template.csproj
-		SccProjectName1 = WebApplication1
-		SccLocalPath1 = WebApplication1
-	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
